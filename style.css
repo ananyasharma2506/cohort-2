@@ -11,9 +11,13 @@ body {
     height: 100%;
     width: 100%;
 }
-div{
-    background: linear-gradient(black,white);
-    height: 100px;
-    width: 100px;
 
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
