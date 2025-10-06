@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 
 * {
     margin: 0;
@@ -12,12 +12,28 @@ body {
     width: 100%;
 }
 
-#box{
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#box1{
     height: 200px;
     width: 200px;
-    background-color: salmon;
-    margin-left: 100px;
-    margin-top: 50px;
-    padding-left: 30px;
-    padding-top: 30px;
+   background-color:  brown;
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color:  chocolate;
 }

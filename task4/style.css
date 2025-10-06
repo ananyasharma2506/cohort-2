@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    border: none;
+}
+
+#center{
+    width: 100%;
+    height:85%;
+    
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
