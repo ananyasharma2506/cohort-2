@@ -28,6 +28,7 @@ html,body{
     color: white;
     gap: 35px;
     border: none;
+    
 }
 #nav h4{
     color: white;
@@ -120,7 +121,7 @@ html,body{
 #iphone h1{
      color: black;
      font-size: 50px;
-    font-weight: 500px;
+    font-weight: 500;
 } 
 
 #iphone h5{
@@ -128,4 +129,115 @@ html,body{
      font-size: 25px;
     font-weight: 300;
 }
+ #container1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+ }
+#cloud{
+    height: 83%;
+    width: 50%;
+    
+    color: white;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_large.jpg);
+    background-position: center;
+    background-size: cover;
+     margin-left: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+    
+}
+#games{
+    height: 83%;
+    width: 50%;
+    
+    color: white;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-games/promo_apple_games__bfy0db0xi602_large.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+}
+#cloud h1{
+     color: black;
+     font-size: 40px;
+    font-weight: 500;
+} 
 
+#cloud h5{
+    color: black;
+     font-size: 20px;
+    font-weight: 300;
+}
+
+#games h1{
+     color: white;
+     font-size: 40px;
+    font-weight: 500;
+} 
+
+#games h5{
+    color: white;
+     font-size: 20px;
+    font-weight: 300;
+}
+#container2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+ }
+#pods{
+    height: 83%;
+    width: 50%;
+    
+    color: white;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+    background-position: center;
+    background-size: cover;
+     margin-left: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+    
+}
+#ipad{
+    height: 83%;
+    width: 50%;
+    
+    color: white;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_large.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+}
+#pods h1{
+     color: black;
+     font-size: 40px;
+    font-weight: 500;
+} 
+
+#pods h5{
+    color: black;
+     font-size: 20px;
+    font-weight: 300;
+}
+
+#ipad h1{
+     color: black;
+     font-size: 40px;
+    font-weight: 500;
+} 
+
+#ipad h5{
+    color:black;
+     font-size: 20px;
+    font-weight: 300;
+}
