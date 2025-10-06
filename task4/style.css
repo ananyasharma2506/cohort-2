@@ -1,7 +1,12 @@
+@font-face {
+    font-family: hii;
+    src: url(./SFPRODISPLAYREGULAR.OTF);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: hii;
 }
 html,body{
     height: 100%;
@@ -21,8 +26,13 @@ html,body{
     align-items: center;
     justify-content: center;
     color: white;
-    gap: 20px;
+    gap: 35px;
     border: none;
+}
+#nav h4{
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
 }
 
 #center{
@@ -32,5 +42,43 @@ html,body{
     background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large.jpg);
     background-size: cover;
     background-position: center;
+    text-align: center;
+    padding: 45px;
+}
+#center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500px;
+}
+#center h5{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+#links button{
+    background-color: royalblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 23px;
+    padding-left: 23px;
+    color: white;
+    border-radius: 40px;
+    font-size: 18px;
+    border: none;
+    font-weight: 300;
+    
+}
+#links #trans{
+    background: none;
+    border: 2px solid royalblue;
+    color: royalblue;
 }
 
