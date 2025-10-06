@@ -82,3 +82,50 @@ html,body{
     color: royalblue;
 }
 
+#air{
+    width: 100%;
+    height: 83%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_large.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+}
+#air h1{
+    color: black;
+     font-size: 50px;
+    font-weight: 500px;
+}
+
+#air h5{
+    color: black;
+     font-size: 25px;
+    font-weight: 300;
+}
+#iphone{
+    width: 100%;
+    height: 83%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_large.jpg);
+    background-position: center;
+    background-size: cover;
+     margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+
+}
+
+#iphone h1{
+     color: black;
+     font-size: 50px;
+    font-weight: 500px;
+} 
+
+#iphone h5{
+    color: black;
+     font-size: 25px;
+    font-weight: 300;
+}
+
