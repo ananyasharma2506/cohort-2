@@ -9,6 +9,8 @@
     font-family: hii;
 }
 html,body{
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
 }
@@ -133,9 +135,10 @@ html,body{
     height: 100%;
     width: 100%;
     display: flex;
+    margin-bottom: 12px;
  }
 #cloud{
-    height: 83%;
+    height: 100%;
     width: 50%;
     
     color: white;
@@ -144,12 +147,13 @@ html,body{
     background-size: cover;
      margin-left: 12px;
     margin-bottom: 12px;
+    
     text-align: center;
     padding: 40px;
     
 }
 #games{
-    height: 83%;
+    height: 100%;
     width: 50%;
     
     color: white;
@@ -189,9 +193,10 @@ html,body{
     height: 100%;
     width: 100%;
     display: flex;
+    margin-bottom: 12px;
  }
 #pods{
-    height: 83%;
+    height: 100%;
     width: 50%;
     
     color: white;
@@ -200,12 +205,13 @@ html,body{
     background-size: cover;
      margin-left: 12px;
     margin-bottom: 12px;
+    
     text-align: center;
     padding: 40px;
     
 }
 #ipad{
-    height: 83%;
+    height: 100%;
     width: 50%;
     
     color: white;
@@ -215,6 +221,7 @@ html,body{
     margin-left: 12px;
     margin-right: 12px;
     margin-bottom: 12px;
+    
     text-align: center;
     padding: 40px;
 }
@@ -237,6 +244,64 @@ html,body{
 } 
 
 #ipad h5{
+    color:black;
+     font-size: 20px;
+    font-weight: 300;
+}
+
+#container3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 12px;
+ }
+#trade{
+    height: 100%;
+    width: 50%;
+    
+    color: white;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-position: center;
+    background-size: cover;
+     margin-left: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+    
+}
+#card{
+    height: 100%;
+    width: 50%;
+    
+    color: white;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-card/promo_apple_card__5cm7draujpey_large.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    padding: 40px;
+}
+#trade h1{
+     color: black;
+     font-size: 40px;
+    font-weight: 500;
+} 
+
+#trade h5{
+    color: black;
+     font-size: 20px;
+    font-weight: 300;
+}
+
+#card h1{
+     color: black;
+     font-size: 40px;
+    font-weight: 500;
+} 
+
+#card h5{
     color:black;
      font-size: 20px;
     font-weight: 300;
