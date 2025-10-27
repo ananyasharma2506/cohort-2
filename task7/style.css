@@ -9,12 +9,13 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 main{
     height: 100%;
-    width: 60%;
+    width: 80%;
     display: grid;
-    gap: 10px;
+    gap: 12px;
     padding: 25px;
     
     grid-template-columns: 15% 15% 1.1fr 0.7fr 0.4fr 0.7fr;
@@ -42,6 +43,14 @@ main{
     grid-area: top-center;
     background-color: burlywood;
      border-radius: 25px;
+     overflow: hidden;
+    position: relative;
+}
+#top-center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
 }
 #top-center1{
     grid-area: top-center1;
@@ -60,26 +69,68 @@ main{
     grid-area: top-right;
     background-color:indianred;
      border-radius: 25px;
+     overflow: hidden;
+    position: relative;
 }
+#top-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
+}
+
 #center{
     grid-area: center;
     background-color:khaki;
      border-radius: 25px;
+     overflow: hidden;
+    position: relative;
 }
+#center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
+}
+
 #bottom-left{
     grid-area: bottom-left;
     background-color:lavender;
      border-radius: 25px;
+     overflow: hidden;
+    position: relative;
+}
+#bottom-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
 }
 #bottom-left1{
     grid-area: bottom-left1;
     background-color: lightgreen;
      border-radius: 25px;
+     overflow: hidden;
+    position: relative;
+}
+#bottom-left1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
 }
 #bottom-center{
     grid-area: bottom-center;
     background-color: moccasin;
      border-radius: 25px;
+     overflow: hidden;
+    position: relative;
+}
+#bottom-center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
 }
 #bottom-right{
     grid-area: bottom-right;
