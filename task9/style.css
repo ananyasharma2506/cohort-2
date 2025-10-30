@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  background-color: black;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  cursor: pointer;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  background-size: cover;
+  background-position: center;
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:nth-child(2) {
+  background-image: url(./wed.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(./st.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(./all.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(./mh.jpg);
+}/*# sourceMappingURL=style.css.map */
