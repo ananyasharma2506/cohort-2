@@ -13,6 +13,7 @@ main{
     gap: 5px;
     display: flex;
     background-color: black;
+    padding: 2px;
 
     section{
     height: 100%;
@@ -34,13 +35,13 @@ main{
         background-image: url(https://i.pinimg.com/736x/67/b6/90/67b690140f09b858dd942c7a35e434e2.jpg);
     }
     section:nth-child(3){
-        background-image: url(./st.jpg);
+        background-image: url(https://i.pinimg.com/736x/2e/49/3e/2e493e91a77392ba573df1778f7a55ba.jpg);
     }
     section:nth-child(4){
-        background-image: url(./all.jpg);
+        background-image: url(https://i.pinimg.com/736x/3a/72/6d/3a726dd509a12360632e2ac16562452e.jpg);
     }
     section:nth-child(5){
-        background-image: url(./mh.jpg);
+        background-image: url(https://i.pinimg.com/1200x/43/06/0e/43060e0cc258c6584f8c090ea91d3b3c.jpg);
     }
 
 }
