@@ -67,6 +67,50 @@ a{
     color: black;
     font-weight: 700;
 }
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#secleftup{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+#line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#secleftup img{
+    height: 45px;
+    width: 120px ;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+#secright{
+    width: 50%;
+    height: 100%;
+}
+button{
+     height: 45px;
+    width: 160px ;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 300;
+}
+#line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
 
    
