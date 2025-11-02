@@ -16,8 +16,8 @@ main{
     grid-template-rows: 1.7fr 1fr;
     grid-template-areas: "left top top top"
                          "left bottomleft center right";
-    gap: 10px;
-    padding: 10px;
+    gap: 0.6rem;
+    padding: 1rem;
 
     #left{
         grid-area: left;
@@ -26,6 +26,7 @@ main{
         overflow: hidden;
         background-position: center;
         background-size: cover;
+        border-radius: 1rem;
     }
 
     #top{
@@ -35,6 +36,7 @@ main{
         background-position: center;
         background-size: cover;
         grid-area: top;
+         border-radius: 1rem;
     }
 
     #center{
@@ -44,23 +46,26 @@ main{
         background-position: center;
         background-size: cover;
         grid-area: center;
+         border-radius: 1rem;
     }
 
     #bottomleft{
-        background-image: url(https://images.unsplash.com/photo-1438129749798-ea5ca739b4cd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1973);
+        background-image: url(https://images.unsplash.com/photo-1641378660246-d45495c30a34?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1935);
         object-fit: cover;
         overflow: hidden;
         background-position: center;
         background-size: cover;
         grid-area: bottomleft;
+         border-radius: 1rem;
     }
 
     #right{
-        background-image: url(https://images.unsplash.com/photo-1664032467966-81b10f986829?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1935);
+        background-image: url(https://images.unsplash.com/photo-1701866086771-3800c4205f8a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2127);
          object-fit: cover;
         overflow: hidden;
         background-position: center;
         background-size: cover;
         grid-area: right;
+         border-radius: 1rem;
     }
 }    
