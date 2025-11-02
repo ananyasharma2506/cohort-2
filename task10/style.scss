@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1.7fr 1fr;
+    grid-template-areas: "left top top top"
+                         "left bottomleft center right";
+    gap: 10px;
+    padding: 10px;
+
+    #left{
+        grid-area: left;
+        background-image: url(https://images.unsplash.com/photo-1424384309529-4f05c2349657?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974);
+        object-fit: cover;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #top{
+        background-image: url(https://images.unsplash.com/photo-1707009538768-2542134437bf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1933);
+         object-fit: cover;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        grid-area: top;
+    }
+
+    #center{
+        background-image: url(https://images.unsplash.com/photo-1732105210730-8f3f902f9053?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974);
+        object-fit: cover;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        grid-area: center;
+    }
+
+    #bottomleft{
+        background-image: url(https://images.unsplash.com/photo-1438129749798-ea5ca739b4cd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1973);
+        object-fit: cover;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        grid-area: bottomleft;
+    }
+
+    #right{
+        background-image: url(https://images.unsplash.com/photo-1664032467966-81b10f986829?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1935);
+         object-fit: cover;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        grid-area: right;
+    }
+}    
