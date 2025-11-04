@@ -1,0 +1,109 @@
+@font-face {
+    font-family: hii;
+    src: url(./63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    color: rgb(244, 244, 244);
+    font-family: hii;
+}
+body{
+    background-color: #0f0f0f;
+}
+ main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .top{
+        width: 100%;
+         
+    img{
+        width: 100%;
+        border-radius: 0.7rem;
+    }
+    }
+    .bottom{ 
+        background-color:#1b1b1b ;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        border-radius: 0.7rem;
+        gap: 3.5rem;
+        
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+
+            h1{
+                font-weight: 200;
+                font-size: 2.5rem;
+                text-transform: uppercase;
+            }
+            p{
+                font-weight: 100;
+                font-size: 1.5rem;
+                opacity: 0.6;
+                line-height: 1.5;
+            }
+            #but{
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+            }
+            #but :nth-child(1){
+                font-size: 2rem;
+                display: flex;
+            
+            }
+            button{
+                width: fit-content;
+                border: none;
+                outline: none;
+                padding: 0.7rem 1rem;
+                border-radius: 0.5rem;
+                margin-top: 0.5rem;
+                
+            }
+        }
+    }
+ }
+
+@media (min-width:900px){
+     main{
+        section{
+           flex-direction: row;
+           align-items: center;
+           padding: 1rem 4rem;
+
+           .top,
+           .bottom{
+            width: 50%;
+           }
+            .bottom{
+               
+               justify-content: space-between;
+               padding: 3rem;
+            }
+        }
+    } 
+
+}
+   
