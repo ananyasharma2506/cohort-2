@@ -16,6 +16,11 @@ html, body {
 html {
   color: rgb(244, 244, 244);
   font-family: hii;
+  font-size: clamp(14px, 1vw, 18px);
+}
+
+section {
+  max-width: 2000px;
 }
 
 body {
@@ -47,7 +52,7 @@ main .bottom {
   flex-direction: column;
   padding: 1.5rem;
   border-radius: 0.7rem;
-  gap: 3.5rem;
+  gap: 3rem;
 }
 main .bottom .text {
   display: flex;
@@ -65,37 +70,35 @@ main .bottom .text p {
   opacity: 0.6;
   line-height: 1.5;
 }
-main .bottom .text #but {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-main .bottom .text #but :nth-child(1) {
-  font-size: 2rem;
-  display: flex;
-}
-main .bottom .text button {
+main .bottom button {
   width: -moz-fit-content;
   width: fit-content;
   border: none;
   outline: none;
   padding: 0.7rem 1rem;
   border-radius: 0.5rem;
-  margin-top: 0.5rem;
 }
 
 @media (min-width: 900px) {
   main section {
     flex-direction: row;
-    align-items: center;
     padding: 1rem 4rem;
   }
-  main section .top,
-  main section .bottom {
+  main .top,
+  main .bottom {
     width: 50%;
   }
-  main section .bottom {
+  main .bottom {
     justify-content: space-between;
     padding: 3rem;
+  }
+  main .bottom .text {
+    gap: 1.5rem;
+  }
+  main .bottom .text h1 {
+    font-size: 3.5rem;
+  }
+  main .bottom .text p {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

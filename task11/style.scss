@@ -14,6 +14,10 @@ html,body{
 html{
     color: rgb(244, 244, 244);
     font-family: hii;
+    font-size: clamp(14px,1vw,18px);
+}
+section{
+    max-width: 2000px;
 }
 body{
     background-color: #0f0f0f;
@@ -44,7 +48,7 @@ body{
         flex-direction: column;
         padding: 1.5rem;
         border-radius: 0.7rem;
-        gap: 3.5rem;
+        gap: 3rem;
         
 
         .text{
@@ -63,14 +67,7 @@ body{
                 opacity: 0.6;
                 line-height: 1.5;
             }
-            #but{
-                display: flex;
-                gap: 0.5rem;
-                align-items: center;
-            }
-            #but :nth-child(1){
-                font-size: 2rem;
-                display: flex;
+            
             
             }
             button{
@@ -79,31 +76,44 @@ body{
                 outline: none;
                 padding: 0.7rem 1rem;
                 border-radius: 0.5rem;
-                margin-top: 0.5rem;
+            
                 
             }
         }
     }
- }
+ 
 
 @media (min-width:900px){
      main{
         section{
            flex-direction: row;
-           align-items: center;
+        
            padding: 1rem 4rem;
-
+        }
            .top,
            .bottom{
             width: 50%;
            }
-            .bottom{
-               
-               justify-content: space-between;
-               padding: 3rem;
-            }
-        }
-    } 
+          
+           .bottom{
+            
+            justify-content: space-between;
+            padding: 3rem;
 
+            .text{
+                gap: 1.5rem;
+
+                h1{
+                    font-size: 3.5rem;
+                }
+                p{
+                    
+                    font-size: 1rem;
+                }
+            }
+           } 
+        
+    } 
 }
+
    
