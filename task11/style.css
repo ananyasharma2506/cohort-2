@@ -102,6 +102,15 @@ main section.view2 .top .elements h2, main section.view2 .bottom .elements h2 {
   font-size: 3.5rem;
   font-weight: 300;
 }
+main section.heading {
+  width: 100%;
+  padding: 1rem;
+  padding-left: 2.5rem;
+}
+main section.heading h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
 main section.view3 {
   width: 100%;
   display: flex;
@@ -140,6 +149,174 @@ main section.view3 .bottom .text p {
   opacity: 0.6;
   line-height: 1.5;
 }
+main section.view4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+main section.view4 .top {
+  width: 100%;
+}
+main section.view4 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+  padding-top: 0.4rem;
+}
+main section.view4 .bottom {
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 0.7rem;
+  gap: 3rem;
+}
+main section.view4 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+main section.view4 .bottom .text h1 {
+  font-weight: 200;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+main section.view4 .bottom .text p {
+  font-weight: 100;
+  font-size: 1.5rem;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+main section.view5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+main section.view5 .card {
+  width: 100%;
+  background-image: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbd7d003dfb6a1bdecb_team-01.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main section.view5 .card .icon, main section.view5 .card .bottom {
+  background-color: rgba(56, 56, 56, 0.395);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+}
+main section.view5 .card .top {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.7rem;
+  margin-right: 1.7rem;
+}
+main section.view5 .card .icon {
+  border-radius: 50%;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2rem;
+}
+main section.view5 .card .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 1rem;
+  margin: 1rem;
+}
+main section.view5 .card .bottom p {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main section.view5 .card2 {
+  width: 100%;
+  background-image: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbd2e12fa747e999689_team-02.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main section.view5 .card2 .icon, main section.view5 .card2 .bottom {
+  background-color: rgba(56, 56, 56, 0.395);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+}
+main section.view5 .card2 .top {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.7rem;
+  margin-right: 1.7rem;
+}
+main section.view5 .card2 .icon {
+  border-radius: 50%;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2rem;
+}
+main section.view5 .card2 .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 1rem;
+  margin: 1rem;
+}
+main section.view5 .card2 .bottom p {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main section.view5 .card3 {
+  width: 100%;
+  background-image: url(https://assets-global.website-files.com/63cffb7c16ab3347fc9734c8/63d2ccbdc1f945f817bf4fd7_team-03.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main section.view5 .card3 .icon, main section.view5 .card3 .bottom {
+  background-color: rgba(56, 56, 56, 0.395);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+}
+main section.view5 .card3 .top {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.7rem;
+  margin-right: 1.7rem;
+}
+main section.view5 .card3 .icon {
+  border-radius: 50%;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.2rem;
+}
+main section.view5 .card3 .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 1rem;
+  margin: 1rem;
+}
+main section.view5 .card3 .bottom p {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
 
 @media (min-width: 900px) {
   main section.view1 {
@@ -167,6 +344,9 @@ main section.view3 .bottom .text p {
     flex-direction: row;
     padding: 3rem 4rem;
   }
+  main section.heading {
+    padding: 3rem 6.5rem;
+  }
   main section.view3 {
     flex-direction: row-reverse;
     padding: 1rem 4rem;
@@ -187,5 +367,33 @@ main section.view3 .bottom .text p {
   }
   main section.view3 .bottom .paragraphs p {
     font-size: 1rem;
+  }
+  main section.view4 {
+    flex-direction: row;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  main section.view4 .top, main section.view4 .bottom {
+    width: 50%;
+  }
+  main section.view4 .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section.view4 .bottom .paragraphs {
+    display: flex;
+    gap: 2rem;
+  }
+  main section.view4 .bottom .paragraphs h1 {
+    font-size: 3.5rem;
+  }
+  main section.view4 .bottom .paragraphs p {
+    font-size: 1rem;
+  }
+  main section.view5 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    gap: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
