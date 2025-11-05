@@ -32,21 +32,21 @@ main {
   display: flex;
   flex-direction: column;
 }
-main section {
+main section.view1 {
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   gap: 1rem;
 }
-main .top {
+main section.view1 .top {
   width: 100%;
 }
-main .top img {
+main section.view1 .top img {
   width: 100%;
   border-radius: 0.7rem;
 }
-main .bottom {
+main section.view1 .bottom {
   background-color: #1b1b1b;
   display: flex;
   flex-direction: column;
@@ -54,23 +54,23 @@ main .bottom {
   border-radius: 0.7rem;
   gap: 3rem;
 }
-main .bottom .text {
+main section.view1 .bottom .text {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
 }
-main .bottom .text h1 {
+main section.view1 .bottom .text h1 {
   font-weight: 200;
   font-size: 2.5rem;
   text-transform: uppercase;
 }
-main .bottom .text p {
+main section.view1 .bottom .text p {
   font-weight: 100;
   font-size: 1.5rem;
   opacity: 0.6;
   line-height: 1.5;
 }
-main .bottom button {
+main section.view1 .bottom button {
   width: -moz-fit-content;
   width: fit-content;
   border: none;
@@ -78,27 +78,50 @@ main .bottom button {
   padding: 0.7rem 1rem;
   border-radius: 0.5rem;
 }
+main section.view2 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+main section.view2 .top, main section.view2 .bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+main section.view2 .top .elements, main section.view2 .bottom .elements {
+  text-align: center;
+  gap: 0.2rem;
+}
+main section.view2 .top .elements small, main section.view2 .bottom .elements small {
+  opacity: 0.6;
+}
+main section.view2 .top .elements h2, main section.view2 .bottom .elements h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
 
 @media (min-width: 900px) {
-  main section {
+  main section.view1 {
     flex-direction: row;
     padding: 1rem 4rem;
   }
-  main .top,
-  main .bottom {
+  main section.view1 .top,
+  main section.view1 .bottom {
     width: 50%;
   }
-  main .bottom {
+  main section.view1 .bottom {
     justify-content: space-between;
     padding: 3rem;
   }
-  main .bottom .text {
+  main section.view1 .bottom .text {
     gap: 1.5rem;
   }
-  main .bottom .text h1 {
+  main section.view1 .bottom .text h1 {
     font-size: 3.5rem;
   }
-  main .bottom .text p {
+  main section.view1 .bottom .text p {
     font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
