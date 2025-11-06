@@ -589,4 +589,32 @@ main footer .lower p a {
     padding: 0.7rem 1rem;
     margin-top: 7.5rem;
   }
+  main footer {
+    display: grid;
+    padding: 1rem 4rem;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 0.8fr 0.4fr;
+    grid-template-areas: "aside upper" "aside lower";
+  }
+  main footer .aside {
+    grid-area: aside;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main footer .upper {
+    grid-area: upper;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main footer .upper .links button {
+    padding: 1rem;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  main footer .lower {
+    grid-area: lower;
+  }
 }/*# sourceMappingURL=style.css.map */

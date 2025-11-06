@@ -512,6 +512,7 @@ body{
             }
 
         }
+       
         }
     }
 }
@@ -662,6 +663,38 @@ body{
                 padding: 0.7rem 1rem;
                 margin-top:7.5rem ;
             }
+       }
+       footer{
+        display: grid;
+        padding: 1rem 4rem;
+        grid-template-columns:1fr 3fr ;
+        grid-template-rows: 0.8fr 0.4fr;
+        grid-template-areas: "aside upper"
+                             "aside lower";
+
+            .aside{
+                grid-area: aside;
+                padding: 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }   
+            .upper{
+                grid-area: upper;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            .links{
+                button{
+                    padding: 1rem;
+                    width: fit-content;
+                }
+            }
+                
+            } 
+            .lower{
+                grid-area: lower;
+            }             
        }
     }
 }
