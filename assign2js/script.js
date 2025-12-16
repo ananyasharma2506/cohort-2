@@ -114,13 +114,13 @@ function test(){console.log("Hello")}
 
 // Conditional Operators
 // 1.
-let age = prompt("Enter age :");
-if(age>=18){
-    console.log("Adult");
-}
-else{
-    console.log("Minor");
-}
+// let age = prompt("Enter age :");
+// if(age>=18){
+//     console.log("Adult");
+// }
+// else{
+//     console.log("Minor");
+// }
 
 // 2.
 let marks = prompt("Enter marks");
@@ -138,3 +138,59 @@ else{
 }
 
 // 3.
+let city = "Jaipur";
+if(city==="Bhopal"){
+    console.log("MP");
+}
+else if(city==="Delhi"){
+    console.log("Capital");
+}
+else{
+    console.log("Unknown City");
+}
+
+// 4.
+let score = 40;
+score > 35 ? console.log("Pass") : console.log("Fail");
+
+// 5.
+let temperature = 45;
+temperature > 30 ? console.log("Hot") : console.log("Pleasant");
+
+// 6.
+let day = 6;
+switch (day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;        
+    default:
+        console.log("Invalid Day");
+}
+
+// 7.
+let age = 15;
+let country ="India";
+if(age>18 && country=="India"){
+     console.log("Eligible for vote");
+}
+else{
+    console.log("Not Eligible");
+}
