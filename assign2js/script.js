@@ -110,3 +110,31 @@ function test(){console.log("Hello")}
 // 2.toh aisa bol sakte h ki var and const variables fully
 //  hoist nh hote hai because voh tdz me hote hai and
 //  before initialization hum unhe access nh kar sakte
+
+
+// Conditional Operators
+// 1.
+let age = prompt("Enter age :");
+if(age>=18){
+    console.log("Adult");
+}
+else{
+    console.log("Minor");
+}
+
+// 2.
+let marks = prompt("Enter marks");
+if(marks>=90){
+    console.log("A grade");
+}
+else if(marks>=75){
+    console.log("B grade");
+}
+else if(marks>=50){
+    console.log("C grade");
+}
+else{
+    console.log("Fail");
+}
+
+// 3.
