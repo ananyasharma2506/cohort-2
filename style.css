@@ -12,29 +12,7 @@ body {
 body{
     background-color: black;
 }
+h1{
+    color: beige;
+}
 
-#parent{
-    height: 450px;
-    width: 100%;
-    background-color: #333;
-    padding: 25px;
-    display: flex;
-    gap: 20px;
-    flex-wrap: nowrap;
-    overflow: auto;
-}
-#parent::-webkit-scrollbar{
-    display: none;
-}
-.child{
-    height: 100%;
-    width: 300px;
-    background-color: white;
-    flex-shrink: 0;
-}
-.child img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-   
-}

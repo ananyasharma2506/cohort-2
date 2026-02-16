@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color:rgb(20, 19, 19);
+    color: beige;
+     text-align: center;
+}
+h2{
+    font-size: 175px;
+    padding-top: 35px; 
+    color:antiquewhite;
+}
+button{
+    font-size: 35px;
+    padding: 20px 35px;
+    margin-left: 100px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-color:rgb(185, 50, 50);
+    border-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
