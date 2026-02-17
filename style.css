@@ -11,8 +11,30 @@ body {
 }
 body{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
 }
-h1{
-    color: beige;
+#box{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(40,20,30);
+    border: 1px solid white;
+    border-radius: 15px;
 }
+button{
+    background-color:brown;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+button:active{
+    scale: 0.95;
+}
+
 
