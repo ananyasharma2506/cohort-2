@@ -35,5 +35,15 @@ const users = [
     tags: ["photography", "travel", "creative", "visual"]
   }
 ];
+var sum = ''
+users.forEach(function(elem){
+  sum = sum + `<div class="card">
+            <img src="${elem.image}" alt="">
+            <h3>${elem.fullName}</h3>
+            <h4>${elem.profession}</h4>
+            <p>${elem.description}</p>
+        </div>`
+})
 
-console.log(users);
+var main = document.querySelector('main')
+main.innerHTML=sum
