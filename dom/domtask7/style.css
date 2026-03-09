@@ -8,9 +8,9 @@ html,body{
     width: 100%;
 }
 body{
-    background-color: black;
+    background-color:#333;
     /* padding: 20px; */
-    cursor: none;
+    /* cursor: none; */
 }
 /* img{
     height: 500px;
@@ -23,7 +23,7 @@ h2{
     color: antiquewhite;
     margin-top: 25px;
 } */
-#main{
+/* #main{
     height: 200%;
     width: 100%;
 } 
@@ -31,4 +31,59 @@ h2{
     height: 60px;
     position: fixed;
     transform: translate(-50%,-50%);
+} */
+
+.piano{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 100%;
+   position: relative;
+}    
+.white{
+    height: 250px;
+    width: 75px;
+    background-color: white;
+    border: 0.2px solid black;
+    border-radius: 0 0 7px 7px;
+}
+
+.black{
+    height: 150px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    top: 32%;
+    z-index: 2;
+    border-radius: 0 0 7px 7px;
+}
+.black:nth-child(15){
+    left: 19.5%;
+}
+.black:nth-child(16){
+    left: 24.3%;
+}
+.black:nth-child(17){
+    left: 34.1%;
+}
+.black:nth-child(18){
+    left: 39%;
+}
+.black:nth-child(19){
+    left: 43.8%;
+}
+.black:nth-child(20){
+    left: 53.7%;
+}
+.black:nth-child(21){
+    left: 58.5%;
+}
+.black:nth-child(22){
+    left: 68.3%;
+}
+.black:nth-child(23){
+    left: 73.2%;
+}
+.black:nth-child(24){
+    left: 78.1%;
 }
